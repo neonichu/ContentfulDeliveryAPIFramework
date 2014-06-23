@@ -1,0 +1,13 @@
+## CocoaPods
+
+Pods
+
+## OS X
+
+.DS_Store
+
+## Xcode
+
+*.xccheckout
+xcuserdata
+.idea

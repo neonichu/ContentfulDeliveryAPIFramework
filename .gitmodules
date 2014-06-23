@@ -1,0 +1,3 @@
+[submodule "vendor/contentful.objc"]
+	path = vendor/contentful.objc
+	url = git@github.com:contentful/contentful.objc.git

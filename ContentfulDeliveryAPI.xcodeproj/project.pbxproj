@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5944C041F01D4D1E8726F753 /* libPods-ContentfulDeliveryAPI-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7A3E76F7A8433093EB594B /* libPods-ContentfulDeliveryAPI-Mac.a */; };
+		A149C76319584BF80095DBFD /* CDAArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018619583147001F73B0 /* CDAArray.m */; };
+		A149C76419584BF80095DBFD /* CDAAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018919583147001F73B0 /* CDAAsset.m */; };
+		A149C76519584BF80095DBFD /* CDAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018C19583147001F73B0 /* CDAClient.m */; };
+		A149C76619584BF80095DBFD /* CDAConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018F19583147001F73B0 /* CDAConfiguration.m */; };
+		A149C76719584BF80095DBFD /* CDAContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019119583147001F73B0 /* CDAContentType.m */; };
+		A149C76819584BF80095DBFD /* CDAContentTypeRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019319583147001F73B0 /* CDAContentTypeRegistry.m */; };
+		A149C76919584BF80095DBFD /* CDADeletedAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019519583147001F73B0 /* CDADeletedAsset.m */; };
+		A149C76A19584BF80095DBFD /* CDADeletedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019719583147001F73B0 /* CDADeletedEntry.m */; };
+		A149C76B19584BF80095DBFD /* CDAEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019919583147001F73B0 /* CDAEntry.m */; };
+		A149C76C19584BF80095DBFD /* CDAError.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019C19583147001F73B0 /* CDAError.m */; };
+		A149C76D19584BF80095DBFD /* CDAFallbackDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019E19583147001F73B0 /* CDAFallbackDictionary.m */; };
+		A149C76E19584BF80095DBFD /* CDAField.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01A019583147001F73B0 /* CDAField.m */; };
+		A149C76F19584BF80095DBFD /* CDAFieldValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01A319583147001F73B0 /* CDAFieldValueTransformer.m */; };
+		A149C77019584BF80095DBFD /* CDAInputSanitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01A519583147001F73B0 /* CDAInputSanitizer.m */; };
+		A149C77119584BF80095DBFD /* CDAPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01AA19583147001F73B0 /* CDAPersistenceManager.m */; };
+		A149C77219584BF80095DBFD /* CDARequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01AC19583147001F73B0 /* CDARequest.m */; };
+		A149C77319584BF80095DBFD /* CDARequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01AF19583147001F73B0 /* CDARequestOperationManager.m */; };
+		A149C77419584BF80095DBFD /* CDAResource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01B119583147001F73B0 /* CDAResource.m */; };
+		A149C77519584BF80095DBFD /* CDAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01B419583147001F73B0 /* CDAResponse.m */; };
+		A149C77619584BF80095DBFD /* CDAResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01B719583147001F73B0 /* CDAResponseSerializer.m */; };
+		A149C77719584BF80095DBFD /* CDASpace.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01B919583147001F73B0 /* CDASpace.m */; };
+		A149C77819584BF80095DBFD /* CDASyncedSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01BC19583147001F73B0 /* CDASyncedSpace.m */; };
+		A149C77919584BF80095DBFD /* CDAUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01BF19583147001F73B0 /* CDAUtilities.m */; };
+		A149C77A19584DAD0095DBFD /* ContentfulDeliveryAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE016A195830C7001F73B0 /* ContentfulDeliveryAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C77B19584DB50095DBFD /* CDAArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018519583147001F73B0 /* CDAArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C77C19584DE20095DBFD /* CDAAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018819583147001F73B0 /* CDAAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C77D19584DE20095DBFD /* CDAClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018B19583147001F73B0 /* CDAClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C77E19584DE20095DBFD /* CDAConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018E19583147001F73B0 /* CDAConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C77F19584DE20095DBFD /* CDAContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019019583147001F73B0 /* CDAContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78019584DE20095DBFD /* CDAEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019819583147001F73B0 /* CDAEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78119584DE20095DBFD /* CDAError.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019B19583147001F73B0 /* CDAError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78219584DE20095DBFD /* CDAField.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019F19583147001F73B0 /* CDAField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78319584DE20095DBFD /* CDAPersistedAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A619583147001F73B0 /* CDAPersistedAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78419584DE20095DBFD /* CDAPersistedEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A719583147001F73B0 /* CDAPersistedEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78519584DE20095DBFD /* CDAPersistedSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A819583147001F73B0 /* CDAPersistedSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78619584DE20095DBFD /* CDARequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01AB19583147001F73B0 /* CDARequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78719584DE20095DBFD /* CDAResource.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B019583147001F73B0 /* CDAResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78819584DE20095DBFD /* CDAResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B319583147001F73B0 /* CDAResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78919584DE20095DBFD /* CDASpace.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B819583147001F73B0 /* CDASpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78A19584DE20095DBFD /* CDASyncedSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BB19583147001F73B0 /* CDASyncedSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78B19584DE20095DBFD /* CDAUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BE19583147001F73B0 /* CDAUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78C19584E0B0095DBFD /* CDAPersistenceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A919583147001F73B0 /* CDAPersistenceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A149C78D19584E330095DBFD /* CDAArray+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018719583147001F73B0 /* CDAArray+Private.h */; };
+		A149C78E19584E330095DBFD /* CDAAsset+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018A19583147001F73B0 /* CDAAsset+Private.h */; };
+		A149C78F19584E330095DBFD /* CDAClient+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018D19583147001F73B0 /* CDAClient+Private.h */; };
+		A149C79019584E330095DBFD /* CDAContentTypeRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019219583147001F73B0 /* CDAContentTypeRegistry.h */; };
+		A149C79119584E330095DBFD /* CDADeletedAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019419583147001F73B0 /* CDADeletedAsset.h */; };
+		A149C79219584E330095DBFD /* CDADeletedEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019619583147001F73B0 /* CDADeletedEntry.h */; };
+		A149C79319584E330095DBFD /* CDAEntry+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019A19583147001F73B0 /* CDAEntry+Private.h */; };
+		A149C79419584E330095DBFD /* CDAFallbackDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019D19583147001F73B0 /* CDAFallbackDictionary.h */; };
+		A149C79519584E330095DBFD /* CDAField+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A119583147001F73B0 /* CDAField+Private.h */; };
+		A149C79619584E330095DBFD /* CDAFieldValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A219583147001F73B0 /* CDAFieldValueTransformer.h */; };
+		A149C79719584E330095DBFD /* CDAInputSanitizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A419583147001F73B0 /* CDAInputSanitizer.h */; };
+		A149C79819584E330095DBFD /* CDARequest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01AD19583147001F73B0 /* CDARequest+Private.h */; };
+		A149C79919584E330095DBFD /* CDARequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01AE19583147001F73B0 /* CDARequestOperationManager.h */; };
+		A149C79A19584E330095DBFD /* CDAResource+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B219583147001F73B0 /* CDAResource+Private.h */; };
+		A149C79B19584E330095DBFD /* CDAResponse+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B519583147001F73B0 /* CDAResponse+Private.h */; };
+		A149C79C19584E330095DBFD /* CDAResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B619583147001F73B0 /* CDAResponseSerializer.h */; };
+		A149C79D19584E330095DBFD /* CDASpace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BA19583147001F73B0 /* CDASpace+Private.h */; };
+		A149C79E19584E330095DBFD /* CDASyncedSpace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BD19583147001F73B0 /* CDASyncedSpace+Private.h */; };
+		A1EE016B195830C7001F73B0 /* ContentfulDeliveryAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE016A195830C7001F73B0 /* ContentfulDeliveryAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01C019583147001F73B0 /* CDAArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018519583147001F73B0 /* CDAArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01C119583147001F73B0 /* CDAArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018619583147001F73B0 /* CDAArray.m */; };
+		A1EE01C219583147001F73B0 /* CDAArray+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018719583147001F73B0 /* CDAArray+Private.h */; };
+		A1EE01C319583147001F73B0 /* CDAAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018819583147001F73B0 /* CDAAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01C419583147001F73B0 /* CDAAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018919583147001F73B0 /* CDAAsset.m */; };
+		A1EE01C519583147001F73B0 /* CDAAsset+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018A19583147001F73B0 /* CDAAsset+Private.h */; };
+		A1EE01C619583147001F73B0 /* CDAClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018B19583147001F73B0 /* CDAClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01C719583147001F73B0 /* CDAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018C19583147001F73B0 /* CDAClient.m */; };
+		A1EE01C819583147001F73B0 /* CDAClient+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018D19583147001F73B0 /* CDAClient+Private.h */; };
+		A1EE01C919583147001F73B0 /* CDAConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018E19583147001F73B0 /* CDAConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01CA19583147001F73B0 /* CDAConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018F19583147001F73B0 /* CDAConfiguration.m */; };
+		A1EE01CB19583147001F73B0 /* CDAContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019019583147001F73B0 /* CDAContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01CC19583147001F73B0 /* CDAContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019119583147001F73B0 /* CDAContentType.m */; };
+		A1EE01CD19583147001F73B0 /* CDAContentTypeRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019219583147001F73B0 /* CDAContentTypeRegistry.h */; };
+		A1EE01CE19583147001F73B0 /* CDAContentTypeRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019319583147001F73B0 /* CDAContentTypeRegistry.m */; };
+		A1EE01CF19583147001F73B0 /* CDADeletedAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019419583147001F73B0 /* CDADeletedAsset.h */; };
+		A1EE01D019583147001F73B0 /* CDADeletedAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019519583147001F73B0 /* CDADeletedAsset.m */; };
+		A1EE01D119583147001F73B0 /* CDADeletedEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019619583147001F73B0 /* CDADeletedEntry.h */; };
+		A1EE01D219583147001F73B0 /* CDADeletedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019719583147001F73B0 /* CDADeletedEntry.m */; };
+		A1EE01D319583147001F73B0 /* CDAEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019819583147001F73B0 /* CDAEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01D419583147001F73B0 /* CDAEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019919583147001F73B0 /* CDAEntry.m */; };
+		A1EE01D519583147001F73B0 /* CDAEntry+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019A19583147001F73B0 /* CDAEntry+Private.h */; };
+		A1EE01D619583147001F73B0 /* CDAError.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019B19583147001F73B0 /* CDAError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01D719583147001F73B0 /* CDAError.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019C19583147001F73B0 /* CDAError.m */; };
+		A1EE01D819583147001F73B0 /* CDAFallbackDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019D19583147001F73B0 /* CDAFallbackDictionary.h */; };
+		A1EE01D919583147001F73B0 /* CDAFallbackDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE019E19583147001F73B0 /* CDAFallbackDictionary.m */; };
+		A1EE01DA19583147001F73B0 /* CDAField.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE019F19583147001F73B0 /* CDAField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01DB19583147001F73B0 /* CDAField.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01A019583147001F73B0 /* CDAField.m */; };
+		A1EE01DC19583147001F73B0 /* CDAField+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A119583147001F73B0 /* CDAField+Private.h */; };
+		A1EE01DD19583147001F73B0 /* CDAFieldValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A219583147001F73B0 /* CDAFieldValueTransformer.h */; };
+		A1EE01DE19583147001F73B0 /* CDAFieldValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01A319583147001F73B0 /* CDAFieldValueTransformer.m */; };
+		A1EE01DF19583147001F73B0 /* CDAInputSanitizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A419583147001F73B0 /* CDAInputSanitizer.h */; };
+		A1EE01E019583147001F73B0 /* CDAInputSanitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01A519583147001F73B0 /* CDAInputSanitizer.m */; };
+		A1EE01E119583147001F73B0 /* CDAPersistedAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A619583147001F73B0 /* CDAPersistedAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01E219583147001F73B0 /* CDAPersistedEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A719583147001F73B0 /* CDAPersistedEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01E319583147001F73B0 /* CDAPersistedSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A819583147001F73B0 /* CDAPersistedSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01E419583147001F73B0 /* CDAPersistenceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01A919583147001F73B0 /* CDAPersistenceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01E519583147001F73B0 /* CDAPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01AA19583147001F73B0 /* CDAPersistenceManager.m */; };
+		A1EE01E619583147001F73B0 /* CDARequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01AB19583147001F73B0 /* CDARequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01E719583147001F73B0 /* CDARequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01AC19583147001F73B0 /* CDARequest.m */; };
+		A1EE01E819583147001F73B0 /* CDARequest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01AD19583147001F73B0 /* CDARequest+Private.h */; };
+		A1EE01E919583147001F73B0 /* CDARequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01AE19583147001F73B0 /* CDARequestOperationManager.h */; };
+		A1EE01EA19583147001F73B0 /* CDARequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01AF19583147001F73B0 /* CDARequestOperationManager.m */; };
+		A1EE01EB19583147001F73B0 /* CDAResource.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B019583147001F73B0 /* CDAResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01EC19583147001F73B0 /* CDAResource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01B119583147001F73B0 /* CDAResource.m */; };
+		A1EE01ED19583147001F73B0 /* CDAResource+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B219583147001F73B0 /* CDAResource+Private.h */; };
+		A1EE01EE19583147001F73B0 /* CDAResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B319583147001F73B0 /* CDAResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01EF19583147001F73B0 /* CDAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01B419583147001F73B0 /* CDAResponse.m */; };
+		A1EE01F019583147001F73B0 /* CDAResponse+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B519583147001F73B0 /* CDAResponse+Private.h */; };
+		A1EE01F119583147001F73B0 /* CDAResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B619583147001F73B0 /* CDAResponseSerializer.h */; };
+		A1EE01F219583147001F73B0 /* CDAResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01B719583147001F73B0 /* CDAResponseSerializer.m */; };
+		A1EE01F319583147001F73B0 /* CDASpace.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B819583147001F73B0 /* CDASpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01F419583147001F73B0 /* CDASpace.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01B919583147001F73B0 /* CDASpace.m */; };
+		A1EE01F519583147001F73B0 /* CDASpace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BA19583147001F73B0 /* CDASpace+Private.h */; };
+		A1EE01F619583147001F73B0 /* CDASyncedSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BB19583147001F73B0 /* CDASyncedSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01F719583147001F73B0 /* CDASyncedSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01BC19583147001F73B0 /* CDASyncedSpace.m */; };
+		A1EE01F819583147001F73B0 /* CDASyncedSpace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BD19583147001F73B0 /* CDASyncedSpace+Private.h */; };
+		A1EE01F919583147001F73B0 /* CDAUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BE19583147001F73B0 /* CDAUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EE01FA19583147001F73B0 /* CDAUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE01BF19583147001F73B0 /* CDAUtilities.m */; };
+		ACE3859873BC4022BC75A45E /* libPods-ContentfulDeliveryAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E58F7310914F53B2D95FAE /* libPods-ContentfulDeliveryAPI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F6C2C756645428C9D828550 /* Pods-ContentfulDeliveryAPI-Mac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI-Mac.xcconfig"; path = "Pods/Pods-ContentfulDeliveryAPI-Mac.xcconfig"; sourceTree = "<group>"; };
+		4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI.xcconfig"; path = "Pods/Pods-ContentfulDeliveryAPI.xcconfig"; sourceTree = "<group>"; };
+		87E58F7310914F53B2D95FAE /* libPods-ContentfulDeliveryAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContentfulDeliveryAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A149C74A19584AF40095DBFD /* ContentfulDeliveryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContentfulDeliveryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EE0165195830C7001F73B0 /* ContentfulDeliveryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContentfulDeliveryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EE0169195830C7001F73B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EE016A195830C7001F73B0 /* ContentfulDeliveryAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ContentfulDeliveryAPI.h; path = ContentfulDeliveryAPI/ContentfulDeliveryAPI.h; sourceTree = "<group>"; };
+		A1EE018519583147001F73B0 /* CDAArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAArray.h; path = vendor/contentful.objc/Code/CDAArray.h; sourceTree = SOURCE_ROOT; };
+		A1EE018619583147001F73B0 /* CDAArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAArray.m; path = vendor/contentful.objc/Code/CDAArray.m; sourceTree = SOURCE_ROOT; };
+		A1EE018719583147001F73B0 /* CDAArray+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAArray+Private.h"; path = "vendor/contentful.objc/Code/CDAArray+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE018819583147001F73B0 /* CDAAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAAsset.h; path = vendor/contentful.objc/Code/CDAAsset.h; sourceTree = SOURCE_ROOT; };
+		A1EE018919583147001F73B0 /* CDAAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAAsset.m; path = vendor/contentful.objc/Code/CDAAsset.m; sourceTree = SOURCE_ROOT; };
+		A1EE018A19583147001F73B0 /* CDAAsset+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAAsset+Private.h"; path = "vendor/contentful.objc/Code/CDAAsset+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE018B19583147001F73B0 /* CDAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAClient.h; path = vendor/contentful.objc/Code/CDAClient.h; sourceTree = SOURCE_ROOT; };
+		A1EE018C19583147001F73B0 /* CDAClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAClient.m; path = vendor/contentful.objc/Code/CDAClient.m; sourceTree = SOURCE_ROOT; };
+		A1EE018D19583147001F73B0 /* CDAClient+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAClient+Private.h"; path = "vendor/contentful.objc/Code/CDAClient+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE018E19583147001F73B0 /* CDAConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAConfiguration.h; path = vendor/contentful.objc/Code/CDAConfiguration.h; sourceTree = SOURCE_ROOT; };
+		A1EE018F19583147001F73B0 /* CDAConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAConfiguration.m; path = vendor/contentful.objc/Code/CDAConfiguration.m; sourceTree = SOURCE_ROOT; };
+		A1EE019019583147001F73B0 /* CDAContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAContentType.h; path = vendor/contentful.objc/Code/CDAContentType.h; sourceTree = SOURCE_ROOT; };
+		A1EE019119583147001F73B0 /* CDAContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAContentType.m; path = vendor/contentful.objc/Code/CDAContentType.m; sourceTree = SOURCE_ROOT; };
+		A1EE019219583147001F73B0 /* CDAContentTypeRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAContentTypeRegistry.h; path = vendor/contentful.objc/Code/CDAContentTypeRegistry.h; sourceTree = SOURCE_ROOT; };
+		A1EE019319583147001F73B0 /* CDAContentTypeRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAContentTypeRegistry.m; path = vendor/contentful.objc/Code/CDAContentTypeRegistry.m; sourceTree = SOURCE_ROOT; };
+		A1EE019419583147001F73B0 /* CDADeletedAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDADeletedAsset.h; path = vendor/contentful.objc/Code/CDADeletedAsset.h; sourceTree = SOURCE_ROOT; };
+		A1EE019519583147001F73B0 /* CDADeletedAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDADeletedAsset.m; path = vendor/contentful.objc/Code/CDADeletedAsset.m; sourceTree = SOURCE_ROOT; };
+		A1EE019619583147001F73B0 /* CDADeletedEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDADeletedEntry.h; path = vendor/contentful.objc/Code/CDADeletedEntry.h; sourceTree = SOURCE_ROOT; };
+		A1EE019719583147001F73B0 /* CDADeletedEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDADeletedEntry.m; path = vendor/contentful.objc/Code/CDADeletedEntry.m; sourceTree = SOURCE_ROOT; };
+		A1EE019819583147001F73B0 /* CDAEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAEntry.h; path = vendor/contentful.objc/Code/CDAEntry.h; sourceTree = SOURCE_ROOT; };
+		A1EE019919583147001F73B0 /* CDAEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAEntry.m; path = vendor/contentful.objc/Code/CDAEntry.m; sourceTree = SOURCE_ROOT; };
+		A1EE019A19583147001F73B0 /* CDAEntry+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAEntry+Private.h"; path = "vendor/contentful.objc/Code/CDAEntry+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE019B19583147001F73B0 /* CDAError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAError.h; path = vendor/contentful.objc/Code/CDAError.h; sourceTree = SOURCE_ROOT; };
+		A1EE019C19583147001F73B0 /* CDAError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAError.m; path = vendor/contentful.objc/Code/CDAError.m; sourceTree = SOURCE_ROOT; };
+		A1EE019D19583147001F73B0 /* CDAFallbackDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAFallbackDictionary.h; path = vendor/contentful.objc/Code/CDAFallbackDictionary.h; sourceTree = SOURCE_ROOT; };
+		A1EE019E19583147001F73B0 /* CDAFallbackDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAFallbackDictionary.m; path = vendor/contentful.objc/Code/CDAFallbackDictionary.m; sourceTree = SOURCE_ROOT; };
+		A1EE019F19583147001F73B0 /* CDAField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAField.h; path = vendor/contentful.objc/Code/CDAField.h; sourceTree = SOURCE_ROOT; };
+		A1EE01A019583147001F73B0 /* CDAField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAField.m; path = vendor/contentful.objc/Code/CDAField.m; sourceTree = SOURCE_ROOT; };
+		A1EE01A119583147001F73B0 /* CDAField+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAField+Private.h"; path = "vendor/contentful.objc/Code/CDAField+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE01A219583147001F73B0 /* CDAFieldValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAFieldValueTransformer.h; path = vendor/contentful.objc/Code/CDAFieldValueTransformer.h; sourceTree = SOURCE_ROOT; };
+		A1EE01A319583147001F73B0 /* CDAFieldValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAFieldValueTransformer.m; path = vendor/contentful.objc/Code/CDAFieldValueTransformer.m; sourceTree = SOURCE_ROOT; };
+		A1EE01A419583147001F73B0 /* CDAInputSanitizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAInputSanitizer.h; path = vendor/contentful.objc/Code/CDAInputSanitizer.h; sourceTree = SOURCE_ROOT; };
+		A1EE01A519583147001F73B0 /* CDAInputSanitizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAInputSanitizer.m; path = vendor/contentful.objc/Code/CDAInputSanitizer.m; sourceTree = SOURCE_ROOT; };
+		A1EE01A619583147001F73B0 /* CDAPersistedAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAPersistedAsset.h; path = vendor/contentful.objc/Code/CDAPersistedAsset.h; sourceTree = SOURCE_ROOT; };
+		A1EE01A719583147001F73B0 /* CDAPersistedEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAPersistedEntry.h; path = vendor/contentful.objc/Code/CDAPersistedEntry.h; sourceTree = SOURCE_ROOT; };
+		A1EE01A819583147001F73B0 /* CDAPersistedSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAPersistedSpace.h; path = vendor/contentful.objc/Code/CDAPersistedSpace.h; sourceTree = SOURCE_ROOT; };
+		A1EE01A919583147001F73B0 /* CDAPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAPersistenceManager.h; path = vendor/contentful.objc/Code/CDAPersistenceManager.h; sourceTree = SOURCE_ROOT; };
+		A1EE01AA19583147001F73B0 /* CDAPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAPersistenceManager.m; path = vendor/contentful.objc/Code/CDAPersistenceManager.m; sourceTree = SOURCE_ROOT; };
+		A1EE01AB19583147001F73B0 /* CDARequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDARequest.h; path = vendor/contentful.objc/Code/CDARequest.h; sourceTree = SOURCE_ROOT; };
+		A1EE01AC19583147001F73B0 /* CDARequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDARequest.m; path = vendor/contentful.objc/Code/CDARequest.m; sourceTree = SOURCE_ROOT; };
+		A1EE01AD19583147001F73B0 /* CDARequest+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDARequest+Private.h"; path = "vendor/contentful.objc/Code/CDARequest+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE01AE19583147001F73B0 /* CDARequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDARequestOperationManager.h; path = vendor/contentful.objc/Code/CDARequestOperationManager.h; sourceTree = SOURCE_ROOT; };
+		A1EE01AF19583147001F73B0 /* CDARequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDARequestOperationManager.m; path = vendor/contentful.objc/Code/CDARequestOperationManager.m; sourceTree = SOURCE_ROOT; };
+		A1EE01B019583147001F73B0 /* CDAResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAResource.h; path = vendor/contentful.objc/Code/CDAResource.h; sourceTree = SOURCE_ROOT; };
+		A1EE01B119583147001F73B0 /* CDAResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAResource.m; path = vendor/contentful.objc/Code/CDAResource.m; sourceTree = SOURCE_ROOT; };
+		A1EE01B219583147001F73B0 /* CDAResource+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAResource+Private.h"; path = "vendor/contentful.objc/Code/CDAResource+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE01B319583147001F73B0 /* CDAResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAResponse.h; path = vendor/contentful.objc/Code/CDAResponse.h; sourceTree = SOURCE_ROOT; };
+		A1EE01B419583147001F73B0 /* CDAResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAResponse.m; path = vendor/contentful.objc/Code/CDAResponse.m; sourceTree = SOURCE_ROOT; };
+		A1EE01B519583147001F73B0 /* CDAResponse+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAResponse+Private.h"; path = "vendor/contentful.objc/Code/CDAResponse+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE01B619583147001F73B0 /* CDAResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAResponseSerializer.h; path = vendor/contentful.objc/Code/CDAResponseSerializer.h; sourceTree = SOURCE_ROOT; };
+		A1EE01B719583147001F73B0 /* CDAResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAResponseSerializer.m; path = vendor/contentful.objc/Code/CDAResponseSerializer.m; sourceTree = SOURCE_ROOT; };
+		A1EE01B819583147001F73B0 /* CDASpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDASpace.h; path = vendor/contentful.objc/Code/CDASpace.h; sourceTree = SOURCE_ROOT; };
+		A1EE01B919583147001F73B0 /* CDASpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDASpace.m; path = vendor/contentful.objc/Code/CDASpace.m; sourceTree = SOURCE_ROOT; };
+		A1EE01BA19583147001F73B0 /* CDASpace+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDASpace+Private.h"; path = "vendor/contentful.objc/Code/CDASpace+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE01BB19583147001F73B0 /* CDASyncedSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDASyncedSpace.h; path = vendor/contentful.objc/Code/CDASyncedSpace.h; sourceTree = SOURCE_ROOT; };
+		A1EE01BC19583147001F73B0 /* CDASyncedSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDASyncedSpace.m; path = vendor/contentful.objc/Code/CDASyncedSpace.m; sourceTree = SOURCE_ROOT; };
+		A1EE01BD19583147001F73B0 /* CDASyncedSpace+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDASyncedSpace+Private.h"; path = "vendor/contentful.objc/Code/CDASyncedSpace+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1EE01BE19583147001F73B0 /* CDAUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAUtilities.h; path = vendor/contentful.objc/Code/CDAUtilities.h; sourceTree = SOURCE_ROOT; };
+		A1EE01BF19583147001F73B0 /* CDAUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAUtilities.m; path = vendor/contentful.objc/Code/CDAUtilities.m; sourceTree = SOURCE_ROOT; };
+		EA7A3E76F7A8433093EB594B /* libPods-ContentfulDeliveryAPI-Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContentfulDeliveryAPI-Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A149C74619584AF40095DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5944C041F01D4D1E8726F753 /* libPods-ContentfulDeliveryAPI-Mac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EE0161195830C7001F73B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE3859873BC4022BC75A45E /* libPods-ContentfulDeliveryAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F60987C0EC941288C1CC8F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E58F7310914F53B2D95FAE /* libPods-ContentfulDeliveryAPI.a */,
+				EA7A3E76F7A8433093EB594B /* libPods-ContentfulDeliveryAPI-Mac.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1EE015B195830C7001F73B0 = {
+			isa = PBXGroup;
+			children = (
+				A1EE0167195830C7001F73B0 /* Code */,
+				8F60987C0EC941288C1CC8F7 /* Frameworks */,
+				A1EE0166195830C7001F73B0 /* Products */,
+				A1EE0168195830C7001F73B0 /* Supporting Files */,
+				A1EE016A195830C7001F73B0 /* ContentfulDeliveryAPI.h */,
+				4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */,
+				1F6C2C756645428C9D828550 /* Pods-ContentfulDeliveryAPI-Mac.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EE0166195830C7001F73B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EE0165195830C7001F73B0 /* ContentfulDeliveryAPI.framework */,
+				A149C74A19584AF40095DBFD /* ContentfulDeliveryAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EE0167195830C7001F73B0 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				A1EE018519583147001F73B0 /* CDAArray.h */,
+				A1EE018619583147001F73B0 /* CDAArray.m */,
+				A1EE018719583147001F73B0 /* CDAArray+Private.h */,
+				A1EE018819583147001F73B0 /* CDAAsset.h */,
+				A1EE018919583147001F73B0 /* CDAAsset.m */,
+				A1EE018A19583147001F73B0 /* CDAAsset+Private.h */,
+				A1EE018B19583147001F73B0 /* CDAClient.h */,
+				A1EE018C19583147001F73B0 /* CDAClient.m */,
+				A1EE018D19583147001F73B0 /* CDAClient+Private.h */,
+				A1EE018E19583147001F73B0 /* CDAConfiguration.h */,
+				A1EE018F19583147001F73B0 /* CDAConfiguration.m */,
+				A1EE019019583147001F73B0 /* CDAContentType.h */,
+				A1EE019119583147001F73B0 /* CDAContentType.m */,
+				A1EE019219583147001F73B0 /* CDAContentTypeRegistry.h */,
+				A1EE019319583147001F73B0 /* CDAContentTypeRegistry.m */,
+				A1EE019419583147001F73B0 /* CDADeletedAsset.h */,
+				A1EE019519583147001F73B0 /* CDADeletedAsset.m */,
+				A1EE019619583147001F73B0 /* CDADeletedEntry.h */,
+				A1EE019719583147001F73B0 /* CDADeletedEntry.m */,
+				A1EE019819583147001F73B0 /* CDAEntry.h */,
+				A1EE019919583147001F73B0 /* CDAEntry.m */,
+				A1EE019A19583147001F73B0 /* CDAEntry+Private.h */,
+				A1EE019B19583147001F73B0 /* CDAError.h */,
+				A1EE019C19583147001F73B0 /* CDAError.m */,
+				A1EE019D19583147001F73B0 /* CDAFallbackDictionary.h */,
+				A1EE019E19583147001F73B0 /* CDAFallbackDictionary.m */,
+				A1EE019F19583147001F73B0 /* CDAField.h */,
+				A1EE01A019583147001F73B0 /* CDAField.m */,
+				A1EE01A119583147001F73B0 /* CDAField+Private.h */,
+				A1EE01A219583147001F73B0 /* CDAFieldValueTransformer.h */,
+				A1EE01A319583147001F73B0 /* CDAFieldValueTransformer.m */,
+				A1EE01A419583147001F73B0 /* CDAInputSanitizer.h */,
+				A1EE01A519583147001F73B0 /* CDAInputSanitizer.m */,
+				A1EE01A619583147001F73B0 /* CDAPersistedAsset.h */,
+				A1EE01A719583147001F73B0 /* CDAPersistedEntry.h */,
+				A1EE01A819583147001F73B0 /* CDAPersistedSpace.h */,
+				A1EE01A919583147001F73B0 /* CDAPersistenceManager.h */,
+				A1EE01AA19583147001F73B0 /* CDAPersistenceManager.m */,
+				A1EE01AB19583147001F73B0 /* CDARequest.h */,
+				A1EE01AC19583147001F73B0 /* CDARequest.m */,
+				A1EE01AD19583147001F73B0 /* CDARequest+Private.h */,
+				A1EE01AE19583147001F73B0 /* CDARequestOperationManager.h */,
+				A1EE01AF19583147001F73B0 /* CDARequestOperationManager.m */,
+				A1EE01B019583147001F73B0 /* CDAResource.h */,
+				A1EE01B119583147001F73B0 /* CDAResource.m */,
+				A1EE01B219583147001F73B0 /* CDAResource+Private.h */,
+				A1EE01B319583147001F73B0 /* CDAResponse.h */,
+				A1EE01B419583147001F73B0 /* CDAResponse.m */,
+				A1EE01B519583147001F73B0 /* CDAResponse+Private.h */,
+				A1EE01B619583147001F73B0 /* CDAResponseSerializer.h */,
+				A1EE01B719583147001F73B0 /* CDAResponseSerializer.m */,
+				A1EE01B819583147001F73B0 /* CDASpace.h */,
+				A1EE01B919583147001F73B0 /* CDASpace.m */,
+				A1EE01BA19583147001F73B0 /* CDASpace+Private.h */,
+				A1EE01BB19583147001F73B0 /* CDASyncedSpace.h */,
+				A1EE01BC19583147001F73B0 /* CDASyncedSpace.m */,
+				A1EE01BD19583147001F73B0 /* CDASyncedSpace+Private.h */,
+				A1EE01BE19583147001F73B0 /* CDAUtilities.h */,
+				A1EE01BF19583147001F73B0 /* CDAUtilities.m */,
+			);
+			name = Code;
+			path = ContentfulDeliveryAPI;
+			sourceTree = "<group>";
+		};
+		A1EE0168195830C7001F73B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1EE0169195830C7001F73B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ContentfulDeliveryAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A149C74719584AF40095DBFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A149C78419584DE20095DBFD /* CDAPersistedEntry.h in Headers */,
+				A149C77D19584DE20095DBFD /* CDAClient.h in Headers */,
+				A149C78019584DE20095DBFD /* CDAEntry.h in Headers */,
+				A149C78719584DE20095DBFD /* CDAResource.h in Headers */,
+				A149C78919584DE20095DBFD /* CDASpace.h in Headers */,
+				A149C78119584DE20095DBFD /* CDAError.h in Headers */,
+				A149C78519584DE20095DBFD /* CDAPersistedSpace.h in Headers */,
+				A149C78219584DE20095DBFD /* CDAField.h in Headers */,
+				A149C77E19584DE20095DBFD /* CDAConfiguration.h in Headers */,
+				A149C78C19584E0B0095DBFD /* CDAPersistenceManager.h in Headers */,
+				A149C77C19584DE20095DBFD /* CDAAsset.h in Headers */,
+				A149C78819584DE20095DBFD /* CDAResponse.h in Headers */,
+				A149C77A19584DAD0095DBFD /* ContentfulDeliveryAPI.h in Headers */,
+				A149C77B19584DB50095DBFD /* CDAArray.h in Headers */,
+				A149C78319584DE20095DBFD /* CDAPersistedAsset.h in Headers */,
+				A149C78B19584DE20095DBFD /* CDAUtilities.h in Headers */,
+				A149C78A19584DE20095DBFD /* CDASyncedSpace.h in Headers */,
+				A149C78619584DE20095DBFD /* CDARequest.h in Headers */,
+				A149C77F19584DE20095DBFD /* CDAContentType.h in Headers */,
+				A149C78D19584E330095DBFD /* CDAArray+Private.h in Headers */,
+				A149C78E19584E330095DBFD /* CDAAsset+Private.h in Headers */,
+				A149C78F19584E330095DBFD /* CDAClient+Private.h in Headers */,
+				A149C79019584E330095DBFD /* CDAContentTypeRegistry.h in Headers */,
+				A149C79119584E330095DBFD /* CDADeletedAsset.h in Headers */,
+				A149C79219584E330095DBFD /* CDADeletedEntry.h in Headers */,
+				A149C79319584E330095DBFD /* CDAEntry+Private.h in Headers */,
+				A149C79419584E330095DBFD /* CDAFallbackDictionary.h in Headers */,
+				A149C79519584E330095DBFD /* CDAField+Private.h in Headers */,
+				A149C79619584E330095DBFD /* CDAFieldValueTransformer.h in Headers */,
+				A149C79719584E330095DBFD /* CDAInputSanitizer.h in Headers */,
+				A149C79819584E330095DBFD /* CDARequest+Private.h in Headers */,
+				A149C79919584E330095DBFD /* CDARequestOperationManager.h in Headers */,
+				A149C79A19584E330095DBFD /* CDAResource+Private.h in Headers */,
+				A149C79B19584E330095DBFD /* CDAResponse+Private.h in Headers */,
+				A149C79C19584E330095DBFD /* CDAResponseSerializer.h in Headers */,
+				A149C79D19584E330095DBFD /* CDASpace+Private.h in Headers */,
+				A149C79E19584E330095DBFD /* CDASyncedSpace+Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EE0162195830C7001F73B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EE01E219583147001F73B0 /* CDAPersistedEntry.h in Headers */,
+				A1EE01F319583147001F73B0 /* CDASpace.h in Headers */,
+				A1EE01D319583147001F73B0 /* CDAEntry.h in Headers */,
+				A1EE01D119583147001F73B0 /* CDADeletedEntry.h in Headers */,
+				A1EE01EB19583147001F73B0 /* CDAResource.h in Headers */,
+				A1EE01F019583147001F73B0 /* CDAResponse+Private.h in Headers */,
+				A1EE01E919583147001F73B0 /* CDARequestOperationManager.h in Headers */,
+				A1EE01DF19583147001F73B0 /* CDAInputSanitizer.h in Headers */,
+				A1EE01F619583147001F73B0 /* CDASyncedSpace.h in Headers */,
+				A1EE01DC19583147001F73B0 /* CDAField+Private.h in Headers */,
+				A1EE01F819583147001F73B0 /* CDASyncedSpace+Private.h in Headers */,
+				A1EE01D519583147001F73B0 /* CDAEntry+Private.h in Headers */,
+				A1EE01C919583147001F73B0 /* CDAConfiguration.h in Headers */,
+				A1EE01C319583147001F73B0 /* CDAAsset.h in Headers */,
+				A1EE01CB19583147001F73B0 /* CDAContentType.h in Headers */,
+				A1EE016B195830C7001F73B0 /* ContentfulDeliveryAPI.h in Headers */,
+				A1EE01ED19583147001F73B0 /* CDAResource+Private.h in Headers */,
+				A1EE01DD19583147001F73B0 /* CDAFieldValueTransformer.h in Headers */,
+				A1EE01CF19583147001F73B0 /* CDADeletedAsset.h in Headers */,
+				A1EE01C619583147001F73B0 /* CDAClient.h in Headers */,
+				A1EE01D619583147001F73B0 /* CDAError.h in Headers */,
+				A1EE01F919583147001F73B0 /* CDAUtilities.h in Headers */,
+				A1EE01E119583147001F73B0 /* CDAPersistedAsset.h in Headers */,
+				A1EE01C219583147001F73B0 /* CDAArray+Private.h in Headers */,
+				A1EE01D819583147001F73B0 /* CDAFallbackDictionary.h in Headers */,
+				A1EE01E319583147001F73B0 /* CDAPersistedSpace.h in Headers */,
+				A1EE01DA19583147001F73B0 /* CDAField.h in Headers */,
+				A1EE01F519583147001F73B0 /* CDASpace+Private.h in Headers */,
+				A1EE01E819583147001F73B0 /* CDARequest+Private.h in Headers */,
+				A1EE01CD19583147001F73B0 /* CDAContentTypeRegistry.h in Headers */,
+				A1EE01EE19583147001F73B0 /* CDAResponse.h in Headers */,
+				A1EE01C019583147001F73B0 /* CDAArray.h in Headers */,
+				A1EE01E419583147001F73B0 /* CDAPersistenceManager.h in Headers */,
+				A1EE01C519583147001F73B0 /* CDAAsset+Private.h in Headers */,
+				A1EE01C819583147001F73B0 /* CDAClient+Private.h in Headers */,
+				A1EE01F119583147001F73B0 /* CDAResponseSerializer.h in Headers */,
+				A1EE01E619583147001F73B0 /* CDARequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A149C74919584AF40095DBFD /* ContentfulDeliveryAPI-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A149C76119584AF40095DBFD /* Build configuration list for PBXNativeTarget "ContentfulDeliveryAPI-Mac" */;
+			buildPhases = (
+				60AF5520973B484F9651F141 /* Check Pods Manifest.lock */,
+				A149C74519584AF40095DBFD /* Sources */,
+				A149C74619584AF40095DBFD /* Frameworks */,
+				A149C74719584AF40095DBFD /* Headers */,
+				A149C74819584AF40095DBFD /* Resources */,
+				2643045FF4584111872EA761 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ContentfulDeliveryAPI-Mac";
+			productName = "ContentfulDeliveryAPI-Mac";
+			productReference = A149C74A19584AF40095DBFD /* ContentfulDeliveryAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1EE0164195830C7001F73B0 /* ContentfulDeliveryAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EE017B195830C7001F73B0 /* Build configuration list for PBXNativeTarget "ContentfulDeliveryAPI" */;
+			buildPhases = (
+				3071A03DFE22418DAFC96AE6 /* Check Pods Manifest.lock */,
+				A1EE0160195830C7001F73B0 /* Sources */,
+				A1EE0161195830C7001F73B0 /* Frameworks */,
+				A1EE0162195830C7001F73B0 /* Headers */,
+				A1EE0163195830C7001F73B0 /* Resources */,
+				75A44BD32609449B8C36397A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentfulDeliveryAPI;
+			productName = ContentfulDeliveryAPI;
+			productReference = A1EE0165195830C7001F73B0 /* ContentfulDeliveryAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EE015C195830C7001F73B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Boris Bügling";
+				TargetAttributes = {
+					A149C74919584AF40095DBFD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A1EE0164195830C7001F73B0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = A1EE015F195830C7001F73B0 /* Build configuration list for PBXProject "ContentfulDeliveryAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1EE015B195830C7001F73B0;
+			productRefGroup = A1EE0166195830C7001F73B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EE0164195830C7001F73B0 /* ContentfulDeliveryAPI */,
+				A149C74919584AF40095DBFD /* ContentfulDeliveryAPI-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A149C74819584AF40095DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EE0163195830C7001F73B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2643045FF4584111872EA761 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ContentfulDeliveryAPI-Mac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3071A03DFE22418DAFC96AE6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60AF5520973B484F9651F141 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75A44BD32609449B8C36397A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ContentfulDeliveryAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A149C74519584AF40095DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A149C76319584BF80095DBFD /* CDAArray.m in Sources */,
+				A149C76419584BF80095DBFD /* CDAAsset.m in Sources */,
+				A149C76519584BF80095DBFD /* CDAClient.m in Sources */,
+				A149C76619584BF80095DBFD /* CDAConfiguration.m in Sources */,
+				A149C76719584BF80095DBFD /* CDAContentType.m in Sources */,
+				A149C76819584BF80095DBFD /* CDAContentTypeRegistry.m in Sources */,
+				A149C76919584BF80095DBFD /* CDADeletedAsset.m in Sources */,
+				A149C76A19584BF80095DBFD /* CDADeletedEntry.m in Sources */,
+				A149C76B19584BF80095DBFD /* CDAEntry.m in Sources */,
+				A149C76C19584BF80095DBFD /* CDAError.m in Sources */,
+				A149C76D19584BF80095DBFD /* CDAFallbackDictionary.m in Sources */,
+				A149C76E19584BF80095DBFD /* CDAField.m in Sources */,
+				A149C76F19584BF80095DBFD /* CDAFieldValueTransformer.m in Sources */,
+				A149C77019584BF80095DBFD /* CDAInputSanitizer.m in Sources */,
+				A149C77119584BF80095DBFD /* CDAPersistenceManager.m in Sources */,
+				A149C77219584BF80095DBFD /* CDARequest.m in Sources */,
+				A149C77319584BF80095DBFD /* CDARequestOperationManager.m in Sources */,
+				A149C77419584BF80095DBFD /* CDAResource.m in Sources */,
+				A149C77519584BF80095DBFD /* CDAResponse.m in Sources */,
+				A149C77619584BF80095DBFD /* CDAResponseSerializer.m in Sources */,
+				A149C77719584BF80095DBFD /* CDASpace.m in Sources */,
+				A149C77819584BF80095DBFD /* CDASyncedSpace.m in Sources */,
+				A149C77919584BF80095DBFD /* CDAUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EE0160195830C7001F73B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EE01EF19583147001F73B0 /* CDAResponse.m in Sources */,
+				A1EE01EC19583147001F73B0 /* CDAResource.m in Sources */,
+				A1EE01D019583147001F73B0 /* CDADeletedAsset.m in Sources */,
+				A1EE01DB19583147001F73B0 /* CDAField.m in Sources */,
+				A1EE01C119583147001F73B0 /* CDAArray.m in Sources */,
+				A1EE01F419583147001F73B0 /* CDASpace.m in Sources */,
+				A1EE01CA19583147001F73B0 /* CDAConfiguration.m in Sources */,
+				A1EE01D419583147001F73B0 /* CDAEntry.m in Sources */,
+				A1EE01FA19583147001F73B0 /* CDAUtilities.m in Sources */,
+				A1EE01C419583147001F73B0 /* CDAAsset.m in Sources */,
+				A1EE01E519583147001F73B0 /* CDAPersistenceManager.m in Sources */,
+				A1EE01EA19583147001F73B0 /* CDARequestOperationManager.m in Sources */,
+				A1EE01D919583147001F73B0 /* CDAFallbackDictionary.m in Sources */,
+				A1EE01E719583147001F73B0 /* CDARequest.m in Sources */,
+				A1EE01CE19583147001F73B0 /* CDAContentTypeRegistry.m in Sources */,
+				A1EE01D219583147001F73B0 /* CDADeletedEntry.m in Sources */,
+				A1EE01DE19583147001F73B0 /* CDAFieldValueTransformer.m in Sources */,
+				A1EE01F219583147001F73B0 /* CDAResponseSerializer.m in Sources */,
+				A1EE01F719583147001F73B0 /* CDASyncedSpace.m in Sources */,
+				A1EE01C719583147001F73B0 /* CDAClient.m in Sources */,
+				A1EE01CC19583147001F73B0 /* CDAContentType.m in Sources */,
+				A1EE01D719583147001F73B0 /* CDAError.m in Sources */,
+				A1EE01E019583147001F73B0 /* CDAInputSanitizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A149C75D19584AF40095DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6C2C756645428C9D828550 /* Pods-ContentfulDeliveryAPI-Mac.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContentfulDeliveryAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ContentfulDeliveryAPI;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A149C75E19584AF40095DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6C2C756645428C9D828550 /* Pods-ContentfulDeliveryAPI-Mac.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ContentfulDeliveryAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ContentfulDeliveryAPI;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1EE0179195830C7001F73B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1EE017A195830C7001F73B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1EE017C195830C7001F73B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ContentfulDeliveryAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_MODULE_NAME = ContentfulDeliveryAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1EE017D195830C7001F73B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ContentfulDeliveryAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_MODULE_NAME = ContentfulDeliveryAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A149C76119584AF40095DBFD /* Build configuration list for PBXNativeTarget "ContentfulDeliveryAPI-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A149C75D19584AF40095DBFD /* Debug */,
+				A149C75E19584AF40095DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EE015F195830C7001F73B0 /* Build configuration list for PBXProject "ContentfulDeliveryAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EE0179195830C7001F73B0 /* Debug */,
+				A1EE017A195830C7001F73B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EE017B195830C7001F73B0 /* Build configuration list for PBXNativeTarget "ContentfulDeliveryAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EE017C195830C7001F73B0 /* Debug */,
+				A1EE017D195830C7001F73B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1EE015C195830C7001F73B0 /* Project object */;
+}
