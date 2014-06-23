@@ -1,4 +1,4 @@
-# ContentfulDeliveryAPIFramework
+# ContentfulDeliveryAPI Framework
 
 Build the Objective-C SDK for [Contentful's][1] Content Delivery API as an iOS 8 or OS X framework. Source code can be found [here][2].
 
