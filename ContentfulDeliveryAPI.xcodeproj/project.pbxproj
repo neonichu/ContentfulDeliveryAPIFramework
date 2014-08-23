@@ -68,6 +68,16 @@
 		A149C79C19584E330095DBFD /* CDAResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01B619583147001F73B0 /* CDAResponseSerializer.h */; };
 		A149C79D19584E330095DBFD /* CDASpace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BA19583147001F73B0 /* CDASpace+Private.h */; };
 		A149C79E19584E330095DBFD /* CDASyncedSpace+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE01BD19583147001F73B0 /* CDASyncedSpace+Private.h */; };
+		A1C4972F19A90B680029A41B /* CDAConfiguration+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4972A19A90B680029A41B /* CDAConfiguration+Private.h */; };
+		A1C4973019A90B680029A41B /* CDAError+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4972B19A90B680029A41B /* CDAError+Private.h */; };
+		A1C4973119A90B680029A41B /* CDAOrganizationContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4972C19A90B680029A41B /* CDAOrganizationContainer.h */; };
+		A1C4973219A90B680029A41B /* CDARequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4972D19A90B680029A41B /* CDARequestSerializer.h */; };
+		A1C4973319A90B680029A41B /* CDARequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C4972E19A90B680029A41B /* CDARequestSerializer.m */; };
+		A1C4973419A90C520029A41B /* CDAConfiguration+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4972A19A90B680029A41B /* CDAConfiguration+Private.h */; };
+		A1C4973519A90C590029A41B /* CDAError+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4972B19A90B680029A41B /* CDAError+Private.h */; };
+		A1C4973619A90C5F0029A41B /* CDAOrganizationContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4972C19A90B680029A41B /* CDAOrganizationContainer.h */; };
+		A1C4973719A90C660029A41B /* CDARequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4972D19A90B680029A41B /* CDARequestSerializer.h */; };
+		A1C4973819A90C6B0029A41B /* CDARequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C4972E19A90B680029A41B /* CDARequestSerializer.m */; };
 		A1EE016B195830C7001F73B0 /* ContentfulDeliveryAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE016A195830C7001F73B0 /* ContentfulDeliveryAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1EE01C019583147001F73B0 /* CDAArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE018519583147001F73B0 /* CDAArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1EE01C119583147001F73B0 /* CDAArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE018619583147001F73B0 /* CDAArray.m */; };
@@ -136,6 +146,11 @@
 		4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI.xcconfig"; path = "Pods/Pods-ContentfulDeliveryAPI.xcconfig"; sourceTree = "<group>"; };
 		87E58F7310914F53B2D95FAE /* libPods-ContentfulDeliveryAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContentfulDeliveryAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A149C74A19584AF40095DBFD /* ContentfulDeliveryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContentfulDeliveryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C4972A19A90B680029A41B /* CDAConfiguration+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAConfiguration+Private.h"; path = "vendor/contentful.objc/Code/CDAConfiguration+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1C4972B19A90B680029A41B /* CDAError+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAError+Private.h"; path = "vendor/contentful.objc/Code/CDAError+Private.h"; sourceTree = SOURCE_ROOT; };
+		A1C4972C19A90B680029A41B /* CDAOrganizationContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAOrganizationContainer.h; path = vendor/contentful.objc/Code/CDAOrganizationContainer.h; sourceTree = SOURCE_ROOT; };
+		A1C4972D19A90B680029A41B /* CDARequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDARequestSerializer.h; path = vendor/contentful.objc/Code/CDARequestSerializer.h; sourceTree = SOURCE_ROOT; };
+		A1C4972E19A90B680029A41B /* CDARequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDARequestSerializer.m; path = vendor/contentful.objc/Code/CDARequestSerializer.m; sourceTree = SOURCE_ROOT; };
 		A1EE0165195830C7001F73B0 /* ContentfulDeliveryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContentfulDeliveryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EE0169195830C7001F73B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1EE016A195830C7001F73B0 /* ContentfulDeliveryAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ContentfulDeliveryAPI.h; path = ContentfulDeliveryAPI/ContentfulDeliveryAPI.h; sourceTree = "<group>"; };
@@ -266,6 +281,7 @@
 				A1EE018D19583147001F73B0 /* CDAClient+Private.h */,
 				A1EE018E19583147001F73B0 /* CDAConfiguration.h */,
 				A1EE018F19583147001F73B0 /* CDAConfiguration.m */,
+				A1C4972A19A90B680029A41B /* CDAConfiguration+Private.h */,
 				A1EE019019583147001F73B0 /* CDAContentType.h */,
 				A1EE019119583147001F73B0 /* CDAContentType.m */,
 				A1EE019219583147001F73B0 /* CDAContentTypeRegistry.h */,
@@ -279,6 +295,7 @@
 				A1EE019A19583147001F73B0 /* CDAEntry+Private.h */,
 				A1EE019B19583147001F73B0 /* CDAError.h */,
 				A1EE019C19583147001F73B0 /* CDAError.m */,
+				A1C4972B19A90B680029A41B /* CDAError+Private.h */,
 				A1EE019D19583147001F73B0 /* CDAFallbackDictionary.h */,
 				A1EE019E19583147001F73B0 /* CDAFallbackDictionary.m */,
 				A1EE019F19583147001F73B0 /* CDAField.h */,
@@ -288,6 +305,7 @@
 				A1EE01A319583147001F73B0 /* CDAFieldValueTransformer.m */,
 				A1EE01A419583147001F73B0 /* CDAInputSanitizer.h */,
 				A1EE01A519583147001F73B0 /* CDAInputSanitizer.m */,
+				A1C4972C19A90B680029A41B /* CDAOrganizationContainer.h */,
 				A1EE01A619583147001F73B0 /* CDAPersistedAsset.h */,
 				A1EE01A719583147001F73B0 /* CDAPersistedEntry.h */,
 				A1EE01A819583147001F73B0 /* CDAPersistedSpace.h */,
@@ -298,6 +316,8 @@
 				A1EE01AD19583147001F73B0 /* CDARequest+Private.h */,
 				A1EE01AE19583147001F73B0 /* CDARequestOperationManager.h */,
 				A1EE01AF19583147001F73B0 /* CDARequestOperationManager.m */,
+				A1C4972D19A90B680029A41B /* CDARequestSerializer.h */,
+				A1C4972E19A90B680029A41B /* CDARequestSerializer.m */,
 				A1EE01B019583147001F73B0 /* CDAResource.h */,
 				A1EE01B119583147001F73B0 /* CDAResource.m */,
 				A1EE01B219583147001F73B0 /* CDAResource+Private.h */,
@@ -351,14 +371,17 @@
 				A149C77B19584DB50095DBFD /* CDAArray.h in Headers */,
 				A149C78319584DE20095DBFD /* CDAPersistedAsset.h in Headers */,
 				A149C78B19584DE20095DBFD /* CDAUtilities.h in Headers */,
+				A1C4973619A90C5F0029A41B /* CDAOrganizationContainer.h in Headers */,
 				A149C78A19584DE20095DBFD /* CDASyncedSpace.h in Headers */,
 				A149C78619584DE20095DBFD /* CDARequest.h in Headers */,
+				A1C4973719A90C660029A41B /* CDARequestSerializer.h in Headers */,
 				A149C77F19584DE20095DBFD /* CDAContentType.h in Headers */,
 				A149C78D19584E330095DBFD /* CDAArray+Private.h in Headers */,
 				A149C78E19584E330095DBFD /* CDAAsset+Private.h in Headers */,
 				A149C78F19584E330095DBFD /* CDAClient+Private.h in Headers */,
 				A149C79019584E330095DBFD /* CDAContentTypeRegistry.h in Headers */,
 				A149C79119584E330095DBFD /* CDADeletedAsset.h in Headers */,
+				A1C4973419A90C520029A41B /* CDAConfiguration+Private.h in Headers */,
 				A149C79219584E330095DBFD /* CDADeletedEntry.h in Headers */,
 				A149C79319584E330095DBFD /* CDAEntry+Private.h in Headers */,
 				A149C79419584E330095DBFD /* CDAFallbackDictionary.h in Headers */,
@@ -370,6 +393,7 @@
 				A149C79A19584E330095DBFD /* CDAResource+Private.h in Headers */,
 				A149C79B19584E330095DBFD /* CDAResponse+Private.h in Headers */,
 				A149C79C19584E330095DBFD /* CDAResponseSerializer.h in Headers */,
+				A1C4973519A90C590029A41B /* CDAError+Private.h in Headers */,
 				A149C79D19584E330095DBFD /* CDASpace+Private.h in Headers */,
 				A149C79E19584E330095DBFD /* CDASyncedSpace+Private.h in Headers */,
 			);
@@ -395,14 +419,17 @@
 				A1EE01C319583147001F73B0 /* CDAAsset.h in Headers */,
 				A1EE01CB19583147001F73B0 /* CDAContentType.h in Headers */,
 				A1EE016B195830C7001F73B0 /* ContentfulDeliveryAPI.h in Headers */,
+				A1C4973119A90B680029A41B /* CDAOrganizationContainer.h in Headers */,
 				A1EE01ED19583147001F73B0 /* CDAResource+Private.h in Headers */,
 				A1EE01DD19583147001F73B0 /* CDAFieldValueTransformer.h in Headers */,
+				A1C4973219A90B680029A41B /* CDARequestSerializer.h in Headers */,
 				A1EE01CF19583147001F73B0 /* CDADeletedAsset.h in Headers */,
 				A1EE01C619583147001F73B0 /* CDAClient.h in Headers */,
 				A1EE01D619583147001F73B0 /* CDAError.h in Headers */,
 				A1EE01F919583147001F73B0 /* CDAUtilities.h in Headers */,
 				A1EE01E119583147001F73B0 /* CDAPersistedAsset.h in Headers */,
 				A1EE01C219583147001F73B0 /* CDAArray+Private.h in Headers */,
+				A1C4972F19A90B680029A41B /* CDAConfiguration+Private.h in Headers */,
 				A1EE01D819583147001F73B0 /* CDAFallbackDictionary.h in Headers */,
 				A1EE01E319583147001F73B0 /* CDAPersistedSpace.h in Headers */,
 				A1EE01DA19583147001F73B0 /* CDAField.h in Headers */,
@@ -414,6 +441,7 @@
 				A1EE01E419583147001F73B0 /* CDAPersistenceManager.h in Headers */,
 				A1EE01C519583147001F73B0 /* CDAAsset+Private.h in Headers */,
 				A1EE01C819583147001F73B0 /* CDAClient+Private.h in Headers */,
+				A1C4973019A90B680029A41B /* CDAError+Private.h in Headers */,
 				A1EE01F119583147001F73B0 /* CDAResponseSerializer.h in Headers */,
 				A1EE01E619583147001F73B0 /* CDARequest.h in Headers */,
 			);
@@ -602,6 +630,7 @@
 				A149C77419584BF80095DBFD /* CDAResource.m in Sources */,
 				A149C77519584BF80095DBFD /* CDAResponse.m in Sources */,
 				A149C77619584BF80095DBFD /* CDAResponseSerializer.m in Sources */,
+				A1C4973819A90C6B0029A41B /* CDARequestSerializer.m in Sources */,
 				A149C77719584BF80095DBFD /* CDASpace.m in Sources */,
 				A149C77819584BF80095DBFD /* CDASyncedSpace.m in Sources */,
 				A149C77919584BF80095DBFD /* CDAUtilities.m in Sources */,
@@ -632,6 +661,7 @@
 				A1EE01F219583147001F73B0 /* CDAResponseSerializer.m in Sources */,
 				A1EE01F719583147001F73B0 /* CDASyncedSpace.m in Sources */,
 				A1EE01C719583147001F73B0 /* CDAClient.m in Sources */,
+				A1C4973319A90B680029A41B /* CDARequestSerializer.m in Sources */,
 				A1EE01CC19583147001F73B0 /* CDAContentType.m in Sources */,
 				A1EE01D719583147001F73B0 /* CDAError.m in Sources */,
 				A1EE01E019583147001F73B0 /* CDAInputSanitizer.m in Sources */,
