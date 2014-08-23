@@ -146,6 +146,7 @@
 		4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI.xcconfig"; path = "Pods/Pods-ContentfulDeliveryAPI.xcconfig"; sourceTree = "<group>"; };
 		87E58F7310914F53B2D95FAE /* libPods-ContentfulDeliveryAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContentfulDeliveryAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A149C74A19584AF40095DBFD /* ContentfulDeliveryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContentfulDeliveryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17E2BC119A90D1300261D49 /* SmallContentfulPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SmallContentfulPlayground.playground; sourceTree = "<group>"; };
 		A1C4972A19A90B680029A41B /* CDAConfiguration+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAConfiguration+Private.h"; path = "vendor/contentful.objc/Code/CDAConfiguration+Private.h"; sourceTree = SOURCE_ROOT; };
 		A1C4972B19A90B680029A41B /* CDAError+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDAError+Private.h"; path = "vendor/contentful.objc/Code/CDAError+Private.h"; sourceTree = SOURCE_ROOT; };
 		A1C4972C19A90B680029A41B /* CDAOrganizationContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAOrganizationContainer.h; path = vendor/contentful.objc/Code/CDAOrganizationContainer.h; sourceTree = SOURCE_ROOT; };
@@ -245,11 +246,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A1C4973919A90CC40029A41B /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				A17E2BC119A90D1300261D49 /* SmallContentfulPlayground.playground */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
 		A1EE015B195830C7001F73B0 = {
 			isa = PBXGroup;
 			children = (
 				A1EE0167195830C7001F73B0 /* Code */,
 				8F60987C0EC941288C1CC8F7 /* Frameworks */,
+				A1C4973919A90CC40029A41B /* Playgrounds */,
 				A1EE0166195830C7001F73B0 /* Products */,
 				A1EE0168195830C7001F73B0 /* Supporting Files */,
 				A1EE016A195830C7001F73B0 /* ContentfulDeliveryAPI.h */,

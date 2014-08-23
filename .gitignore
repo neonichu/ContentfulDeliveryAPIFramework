@@ -11,3 +11,4 @@ Pods
 *.xccheckout
 xcuserdata
 .idea
+section-*-original.swift
