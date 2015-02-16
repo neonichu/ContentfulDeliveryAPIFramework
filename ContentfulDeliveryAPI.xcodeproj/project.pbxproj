@@ -142,8 +142,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F6C2C756645428C9D828550 /* Pods-ContentfulDeliveryAPI-Mac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI-Mac.xcconfig"; path = "Pods/Pods-ContentfulDeliveryAPI-Mac.xcconfig"; sourceTree = "<group>"; };
-		4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI.xcconfig"; path = "Pods/Pods-ContentfulDeliveryAPI.xcconfig"; sourceTree = "<group>"; };
+		1AC7F40373E4FB0EA733343D /* Pods-ContentfulDeliveryAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContentfulDeliveryAPI/Pods-ContentfulDeliveryAPI.release.xcconfig"; sourceTree = "<group>"; };
+		51E909A9299391CA2F9BE272 /* Pods-ContentfulDeliveryAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContentfulDeliveryAPI/Pods-ContentfulDeliveryAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		87E58F7310914F53B2D95FAE /* libPods-ContentfulDeliveryAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContentfulDeliveryAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A149C74A19584AF40095DBFD /* ContentfulDeliveryAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContentfulDeliveryAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17E2BC119A90D1300261D49 /* SmallContentfulPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SmallContentfulPlayground.playground; sourceTree = "<group>"; };
@@ -214,7 +214,9 @@
 		A1EE01BD19583147001F73B0 /* CDASyncedSpace+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CDASyncedSpace+Private.h"; path = "vendor/contentful.objc/Code/CDASyncedSpace+Private.h"; sourceTree = SOURCE_ROOT; };
 		A1EE01BE19583147001F73B0 /* CDAUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAUtilities.h; path = vendor/contentful.objc/Code/CDAUtilities.h; sourceTree = SOURCE_ROOT; };
 		A1EE01BF19583147001F73B0 /* CDAUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAUtilities.m; path = vendor/contentful.objc/Code/CDAUtilities.m; sourceTree = SOURCE_ROOT; };
+		E2830F0331FC9D7FB4EFAAD9 /* Pods-ContentfulDeliveryAPI-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI-Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContentfulDeliveryAPI-Mac/Pods-ContentfulDeliveryAPI-Mac.release.xcconfig"; sourceTree = "<group>"; };
 		EA7A3E76F7A8433093EB594B /* libPods-ContentfulDeliveryAPI-Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContentfulDeliveryAPI-Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F9BD688B119FEF255BEA93 /* Pods-ContentfulDeliveryAPI-Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentfulDeliveryAPI-Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContentfulDeliveryAPI-Mac/Pods-ContentfulDeliveryAPI-Mac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		94CB00394A16DF782F4D166B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51E909A9299391CA2F9BE272 /* Pods-ContentfulDeliveryAPI.debug.xcconfig */,
+				1AC7F40373E4FB0EA733343D /* Pods-ContentfulDeliveryAPI.release.xcconfig */,
+				F7F9BD688B119FEF255BEA93 /* Pods-ContentfulDeliveryAPI-Mac.debug.xcconfig */,
+				E2830F0331FC9D7FB4EFAAD9 /* Pods-ContentfulDeliveryAPI-Mac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1C4973919A90CC40029A41B /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,11 +273,10 @@
 				A1EE0167195830C7001F73B0 /* Code */,
 				8F60987C0EC941288C1CC8F7 /* Frameworks */,
 				A1C4973919A90CC40029A41B /* Playgrounds */,
+				94CB00394A16DF782F4D166B /* Pods */,
 				A1EE0166195830C7001F73B0 /* Products */,
 				A1EE0168195830C7001F73B0 /* Supporting Files */,
 				A1EE016A195830C7001F73B0 /* ContentfulDeliveryAPI.h */,
-				4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */,
-				1F6C2C756645428C9D828550 /* Pods-ContentfulDeliveryAPI-Mac.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -565,7 +577,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ContentfulDeliveryAPI-Mac-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContentfulDeliveryAPI-Mac/Pods-ContentfulDeliveryAPI-Mac-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3071A03DFE22418DAFC96AE6 /* Check Pods Manifest.lock */ = {
@@ -610,7 +622,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ContentfulDeliveryAPI-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContentfulDeliveryAPI/Pods-ContentfulDeliveryAPI-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -683,7 +695,7 @@
 /* Begin XCBuildConfiguration section */
 		A149C75D19584AF40095DBFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F6C2C756645428C9D828550 /* Pods-ContentfulDeliveryAPI-Mac.xcconfig */;
+			baseConfigurationReference = F7F9BD688B119FEF255BEA93 /* Pods-ContentfulDeliveryAPI-Mac.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -709,7 +721,7 @@
 		};
 		A149C75E19584AF40095DBFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F6C2C756645428C9D828550 /* Pods-ContentfulDeliveryAPI-Mac.xcconfig */;
+			baseConfigurationReference = E2830F0331FC9D7FB4EFAAD9 /* Pods-ContentfulDeliveryAPI-Mac.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -818,7 +830,7 @@
 		};
 		A1EE017C195830C7001F73B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */;
+			baseConfigurationReference = 51E909A9299391CA2F9BE272 /* Pods-ContentfulDeliveryAPI.debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1.2.0;
 				DEFINES_MODULE = YES;
@@ -836,7 +848,7 @@
 		};
 		A1EE017D195830C7001F73B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6AEBAE6C9A43DD886696DB /* Pods-ContentfulDeliveryAPI.xcconfig */;
+			baseConfigurationReference = 1AC7F40373E4FB0EA733343D /* Pods-ContentfulDeliveryAPI.release.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1.2.0;
 				DEFINES_MODULE = YES;

@@ -5,7 +5,7 @@ client.fetchEntryWithIdentifier("nyancat",
 
     var imageURL = (entry.fields["image"] as CDAAsset).URL
     var imageData = NSData(contentsOfURL:imageURL)
-    var image = NSImage(data:imageData)
+    var image = NSImage(data:imageData!)
     },
 
     failure: { (response: CDAResponse!, error: NSError!) -> Void in println(error) })
